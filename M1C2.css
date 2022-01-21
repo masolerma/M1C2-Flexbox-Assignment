@@ -1,0 +1,163 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #73dab2;
+}
+
+.flex {
+    margin: 10px;
+}
+
+.flexOne{
+    display:flex;
+    
+}
+
+.flexOne .square{
+    margin:5px;
+}
+
+.flexTwo{
+    display:flex;
+    flex-direction:column;
+}
+
+.flexTwo .square{
+    margin:2px;
+}
+
+.flexThree{
+    display:flex;
+    flex-direction:row-reverse;
+}
+
+.flexThree .square{
+    margin:2px;
+}
+
+.flexFour{
+    width:350px;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.flexFour .square{
+    margin:5px;
+    background:#3d8b6d;
+}
+
+.flexFive{
+    width:350px;
+    display:flex;
+}
+
+.flexFive .item{
+    background:#0b6643;
+    width:100px;
+    height:100px;
+    margin:2px;
+}
+
+#grow{
+    display:flex;
+    flex-grow: 2;
+}
+
+.flexSix{
+    height:400px;
+    width:500px;
+    background:#f1f1f1;
+    flex-direction:column;
+}
+
+.flexSix .one{
+    display:flex;
+    justify-content:space-around;
+    margin-bottom:50px;
+}
+
+.flexSix .two{
+    display:flex;
+    justify-content:space-between;
+    background:#d6d6d6;
+    margin-bottom:50px;
+}
+
+.flexSix .three{
+    display:flex;
+    justify-content:space-evenly;
+    margin-bottom:50px;
+}
+
+.flexSeven{
+    height:400px;
+    width:500px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.flexSeven .one{
+ display:flex;
+ flex-direction:column;
+ justify-content:center;
+}
+
+.flexSeven .two{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+}
+
+.flexSeven .three{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+}
+
+.flexSeven .four{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+
+}
+
+.flexEight{
+    display:flex;
+    width:300px;
+    background:#eeeeee;
+    height:400px;
+}
+
+.flexEight .one{
+    display:flex;
+    align-items:center;
+}
+
+.flexEight .two{
+    display:flex;
+    align-items:flex-end;
+}
+
+.flexEight .three{
+    display:flex;
+    align-items:flex-start;
+}
+
+.flexNine{
+    display:flex;
+    width:450px;
+    height:250px;
+    background:#eeeeee;
+}
+
+.flexNine .square{
+    display:flex;
+    align-items:flex-start;
+    justify-content:space-evenly;
+    margin-left:10px;
+}
+
+#special{
+    display:flex;
+    align-self:flex-end;
+}
